@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Semicolon separated list of repositories to watch
+export PRNOTIFY_REPOS_TO_WATCH="jeffbmartinez/prnotify;jeffbmartinez/delay"
+
+# Github api personal access token, can be generated at
+# https://github.com/settings/tokens
+# For "scopes", select "repo" (the top level one)
+export PRNOTIFY_GITHUB_API_TOKEN="[your github api personal access token]"
